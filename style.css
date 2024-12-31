@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cfcdcd;
+    overflow: hidden;
+    
+}
+
+img {
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    object-fit: cover;
+}
+
+.galeria {
+    padding: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 2px;
+    margin-top: 130px;
+}
